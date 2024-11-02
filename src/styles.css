@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background: whitesmoke;
+  }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  
+}
+
+.pagination button {
+    padding: 5px 15px;
+    margin: 0 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    margin: 0 10px;
+}
+
+.home-page{
+    margin-top: 70px;
+
+}
+.top-rated-page{
+    margin-top: 70px;
+ 
+}
+.upcoming-page{
+    margin-top: 70px;
+   
+}
+.search-results-page{
+    margin-top: 70px;
+  
+    
+}
+
+@media screen and (max-width: 768px){
+
+    
+.home-page{
+    margin-top: 130px;
+    text-align: center;
+}
+.top-rated-page{
+    margin-top: 130px;
+    text-align: center;
+}
+.upcoming-page{
+    margin-top: 130px;
+    text-align: center;
+}
+.movie-detail{
+    margin-top: 120px;
+}
+.search-results-page{
+    margin-top: 120px;
+    text-align: center;
+}
+}
